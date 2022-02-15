@@ -14,7 +14,6 @@ h1 {
   width: 150px;
   height: 150px;
   margin: auto;
-  background-color: red;
   justify-content: center;
   align-items: center;
   border-radius: 100%;
@@ -24,4 +23,36 @@ h1 {
 
 .border {
   border: solid black 5px;
+}
+
+
+.hidden {
+  background-color: white;
+  border-color: white;
+}
+
+.visable {
+  visibility: visible;
+}
+
+#text-circle-circle {
+  fill: deepskyblue;
+  stroke: black;
+  stroke-width: 3px;
+}
+
+#hover-circle {
+  fill: lightgreen;
+  stroke-width: 3px;
+}
+
+
+#hover-disappear{
+  fill: mediumpurple;
+  stroke: black;
+  stroke-width: 3px;
+}
+
+button {
+  margin-top: 150px;
 }
